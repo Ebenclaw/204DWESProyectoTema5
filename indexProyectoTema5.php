@@ -18,7 +18,7 @@
         <table class="tablaIndex script">
             <caption>Scripts DB</caption>
             <tr>
-                <td>Script creación de base de datos y usuario</td>
+                <td>Script creación de base de datos y usuarios</td>
                 <td><a href="mostrarcodigo/muestraCrear.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
             </tr>
             <tr>
@@ -33,66 +33,25 @@
         <table class="tablaIndex">
             <caption>Ejercicios</caption>
             <tr>
-                <th>Enunciado</th>
-                <th colspan="2">PDO</th>
-                <th colspan="2">MySQLi</th>
+                <td>0. Mostrar el contenido de las variables superglobales y phpinfo()</td>
+                <td><a href="codigoPHP/ejercicio00.php"><img src="webroot/image/play.png" alt="play"/></a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio00.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
             </tr>
             <tr>
-                <td>1. Conexión a la base de datos con la cuenta usuario y tratamiento de errores</td>
-                <td><a href="codigoPHP/ejercicio01.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio01.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
+                <td>1. Desarrollo de un control de acceso con identificación del usuario basado en la función header()</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>2. Mostrar el contenido de la tabla Departamento y el número de registros</td>
-                <td><a href="codigoPHP/ejercicio02.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio02.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
+                <td>2. Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>3. Formulario para añadir un departamento a la tabla Departamento con validación de entrada y control de errores</td>
-                <td><a href="codigoPHP/ejercicio03.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio03.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
+                <td>3. </td>
                 <td></td>
                 <td></td>
-            </tr>
-            <tr>
-                <td>4. Formulario de búsqueda de departamentos por descripción (por una parte del campo DescDepartamento, si el usuario no pone nada deben aparecer todos los departamentos)</td>
-                <td><a href="codigoPHP/ejercicio04.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio04.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>5. Pagina web que añade tres registros a nuestra tabla Departamento utilizando tres instrucciones insert y una transacción, de tal forma que se añadan los tres registros o no se añada ninguno</td>
-                <td><a href="codigoPHP/ejercicio05.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio05.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>6. Pagina web que cargue registros en la tabla Departamento desde un array departamentosnuevos utilizando una consulta preparada</td>
-                <td><a href="codigoPHP/ejercicio06.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio06.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>7.1. JSON: Página web que toma datos (código y descripción) de un fichero json y los añade a la tabla Departamento de nuestra base de datos. (IMPORTAR). El fichero importado se encuentra en el directorio .../tmp/ del servidor</td>
-                <td><a href="codigoPHP/ejercicio07JSON.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio07JSON.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>8.1. JSON: Página web que toma datos (código y descripción) de la tabla Departamento y guarda en un fichero departamento.json. (COPIA DE SEGURIDAD / EXPORTAR). El fichero exportado se encuentra en el directorio .../tmp/ del servidor</td>
-                <td><a href="codigoPHP/ejercicio08JSON.php"><img src="webroot/image/play.png" alt="play"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio08JSON.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-                <td></td>
-                <td></td>
-            </tr>
+            </tr>            
         </table>
     </main>
     <footer>

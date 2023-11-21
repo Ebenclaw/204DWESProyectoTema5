@@ -124,6 +124,10 @@ td{
     padding: 0 10px;
     color: #59483e;
 }
+td:nth-of-type(2), td:nth-of-type(3){
+    width: 30px;
+    
+}
 th{
     background: none;
     color: #59483e;

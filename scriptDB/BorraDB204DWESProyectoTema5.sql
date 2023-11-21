@@ -9,3 +9,6 @@ drop database if exists DB204DWESProyectoTema5;
 
 /*Se borra el usuario*/
 drop user if exists 'user204DWESProyectoTema5'@'%';
+
+/*Se borra el usuario de 1&1 o IONOS*/
+drop user if exists 'user1&1DAW204'@'%';
