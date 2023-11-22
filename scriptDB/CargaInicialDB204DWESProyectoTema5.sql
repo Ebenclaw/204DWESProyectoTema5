@@ -1,8 +1,21 @@
 /*
 * @author Rebeca Sánchez Pérez
-* @version 1.0
+* @version 1.1
 * @since 21/11/2023
 */
+
+/*Se insertan valores en la tabla Usuario*/
+insert into T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_FechaHoraUltimaConexion, T01_Perfil)
+values ("heraclio",SHA2(CONCAT('heraclio','paso'), 256),"Profesor de desarrollo web en entorno servidor", now(), "administrador"), -- Password = Nombre + Pass + SHA256
+("alberto",SHA2(CONCAT('alberto','paso'), 256),"Profesor de desarrollo web en entorno cliente", now(), "administrador"),
+("antonio",SHA2(CONCAT('antonio','paso'), 256),"Profesor de diseño de interfaces web", now(), "administrador"),
+("amor",SHA2(CONCAT('amor','paso'), 256),"Profesora de desplique de aplicaciones web", now(), "administrador"),
+("erika",SHA2(CONCAT('erika','paso'), 256),"Alumna", now(), "usuario"),
+("alvaro",SHA2(CONCAT('alvaro','paso'), 256),"Alumna", now(), "usuario"),
+("borja",SHA2(CONCAT('borja','paso'), 256),"Alumno", now(), "usuario"),
+("ismael",SHA2(CONCAT('ismael','paso'), 256),"Alumno", now(), "usuario"),
+("oscar",SHA2(CONCAT('oscar','paso'), 256),"Alumno", now(), "usuario"),
+("carlos",SHA2(CONCAT('carlos','paso'), 256),"Alumno", now(), "usuario");
 
 /*Se insertan valores en la tabla Departamento*/
 insert into T02_Departamento values ("DAW","Desarrollo de aplicaciones web",now(),50.50,null),
