@@ -16,6 +16,13 @@
     </header>
     <main>
         <table class="tablaIndex script">
+            <caption>Ficheros de configuracion</caption>
+            <tr>
+                <td>Configuracion de la base de datos PDO</td>
+                <td><a href="mostrarcodigo/muestraConfPDO.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
+            </tr>
+        </table>
+        <table class="tablaIndex script">
             <caption>Scripts DB</caption>
             <tr>
                 <td>Script creación de base de datos y usuarios</td>
@@ -57,7 +64,7 @@
     <footer>
         <div id="derechos">2023-2024 © Todos los derechos reservados: <a href="../index.html">Rebeca Sánchez Pérez</a></div>
         <div id="fotos">
-            <a href="https://github.com/Ebenclaw" target="_blank"><img id="git" src="webroot/image/GitHub.png" alt="GitHub"></a>
+            <a href="https://github.com/Ebenclaw/204DWESProyectoTema5" target="_blank"><img id="git" src="webroot/image/GitHub.png" alt="GitHub"></a>
             <a href="http://ieslossauces.centros.educa.jcyl.es/sitio/" target="_blank"><img id="sauces" src="webroot/image/sauces.png" alt="Sauces"></a>
             <a href="../204DWESProyectoDWES/indexProyectoDWES.php"><img id="home" src="webroot/image/home.png" alt="Inicio"></a>
         </div>

@@ -1,25 +1,27 @@
 /*
 * @author Rebeca Sánchez Pérez
-* @version 1.1
-* @since 21/11/2023
+* @version 1.2
+* @since 27/11/2023
 */
 
-/*Se insertan valores en la tabla Usuario*/
-insert into T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_FechaHoraUltimaConexion, T01_Perfil)
-values ("heraclio",SHA2(CONCAT('heraclio','paso'), 256),"Profesor de desarrollo web en entorno servidor", now(), "administrador"), -- Password = Nombre + Pass + SHA256
-("alberto",SHA2(CONCAT('alberto','paso'), 256),"Profesor de desarrollo web en entorno cliente", now(), "administrador"),
-("antonio",SHA2(CONCAT('antonio','paso'), 256),"Profesor de diseño de interfaces web", now(), "administrador"),
-("amor",SHA2(CONCAT('amor','paso'), 256),"Profesora de desplique de aplicaciones web", now(), "administrador"),
-("erika",SHA2(CONCAT('erika','paso'), 256),"Alumna", now(), "usuario"),
-("alvaro",SHA2(CONCAT('alvaro','paso'), 256),"Alumna", now(), "usuario"),
-("borja",SHA2(CONCAT('borja','paso'), 256),"Alumno", now(), "usuario"),
-("ismael",SHA2(CONCAT('ismael','paso'), 256),"Alumno", now(), "usuario"),
-("oscar",SHA2(CONCAT('oscar','paso'), 256),"Alumno", now(), "usuario"),
-("carlos",SHA2(CONCAT('carlos','paso'), 256),"Alumno", now(), "usuario");
+/*Se pone en uso la base de datos*/
+USE DB214DWESProyectoTema5;
 
 /*Se insertan valores en la tabla Departamento*/
-insert into T02_Departamento values ("DAW","Desarrollo de aplicaciones web",now(),50.50,null),
-("SMR","Sistemas microinformarticos y redes",now(),1.50,null),
-("PRE","Proyectos de edificacion",now(),150,null),
-("DAM","Desarrollo de aplicaciones multiplataforma",now(),10.25,null),
-("ASI","Administracion de sistemas informaticos en red",now(),0.10,null);
+INSERT INTO T02_Departamento (T02_CodDepartamento, T02_DescDepartamento, T02_FechaCreacionDepartamento, T02_VolumenDeNegocio, T02_FechaBajaDepartamento) VALUES
+    ('AAA', 'Departamento de Ventas', '2023-11-13 13:06:00', 100000.50, NULL),
+    ('AAB', 'Departamento de Marketing', '2023-11-13 13:06:00', 50089.50, NULL),
+    ('AAC', 'Departamento de Finanzas', '2022-11-13 13:06:00', 600.50, '2023-11-13 13:06:00');
+
+/*Se insertan valores en la tabla Usuario*/
+INSERT INTO T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
+    ('admin', SHA2(CONCAT('adminpaso'), 256), 'administrador', 'administrador'),
+    ('alvaro', SHA2(CONCAT('alvaropaso'), 256), 'Álvaro Cordero Miñambres', 'usuario'),
+    ('carlos', SHA2(CONCAT('carlospaso'), 256), 'Carlos García Cachón', 'usuario'),
+    ('oscar', SHA2(CONCAT('oscarpaso'), 256), 'Oscar Pascual Ferrero', 'usuario'),
+    ('borja', SHA2(CONCAT('borjapaso'), 256), 'Borja Nuñez Refoyo', 'usuario'),
+    ('rebeca', SHA2(CONCAT('rebecapaso'), 256), 'Rebeca Sánchez Pérez', 'usuario'),
+    ('erika', SHA2(CONCAT('erikapaso'), 256), 'Erika Martínez Pérez', 'usuario'),
+    ('ismael', SHA2(CONCAT('ismaelpaso'), 256), 'Ismael Ferreras García', 'usuario'),
+    ('heraclio', SHA2(CONCAT('heracliopaso'), 256), 'Heraclio Borbujo Moran', 'administrador'),
+    ('amor', SHA2(CONCAT('amorpaso'), 256), 'Amor Rodriguez Navarro', 'administrador');
