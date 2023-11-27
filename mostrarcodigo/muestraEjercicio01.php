@@ -15,10 +15,10 @@
         <h1>Mostrar codigo</h1>
     </header>
     <main>
-        <h2>Ejercicio 0</h2>
+        <h2>Ejercicio 1</h2>
         <div class="ejercicio">
             <?php
-                highlight_file("../codigoPHP/ejercicio00.php");
+                highlight_file("../codigoPHP/ejercicio01.php");
             ?>
         </div>
     </main>

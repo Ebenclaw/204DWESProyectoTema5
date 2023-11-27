@@ -5,14 +5,11 @@
          * @since 21/11/2023
          */
         // Variables de conexión con la base de datos
-        define('HOST', '192.168.20.19');
-        define('DBNAME', 'DB202DWESProyectoTema5');
-        define('USERNAME', 'user202DWESProyectoTema5');
-        define('PASSWORD', 'P@ssw0rd');
+        require_once('../config/confDBPDO.php');
 
         try {
             // Conexión con la base de datos
-            $miDB = new PDO("mysql:host=" . HOST . ";dbname=" . DBNAME, USERNAME, PASSWORD);
+            $miDB = new PDO('mysql:host='.IPMYSQL.'; dbname='.NOMBREDB,USUARIO,PASSWORD);
 
             if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
                 header('WWW-Authenticate: Basic realm="Acceso restringido"');
@@ -47,12 +44,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../webroot/css/style.css">
-        <title>DWES</title>
+        <link rel="stylesheet" href="../webroot/css/style.css">
+        <link rel="icon" type="image/x-icon" href="../webroot/image/flora.png">
+        <title>Rebeca Sánchez Pérez</title>
     </head>
     <body>
         <header>
-            <h1>1. Desarrollo de un control de acceso con identificación del usuario basado en la función header().</h1>
+            <a href="../../index.html"><img id="logo" src="../webroot/image/logo.png" alt="Logo"></a>
+            <h1>Ejercicio 2</h1>
         </header>
         <main>
         </main>
