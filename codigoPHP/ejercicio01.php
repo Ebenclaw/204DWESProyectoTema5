@@ -16,17 +16,16 @@
          */
         header('WWW-Authenticate: Basic Realm="Contenido restringido"');
 
-        /**
-         * Cuando un cliente realiza una solicitud a un recurso protegido y no proporciona credenciales válidas o no proporciona credenciales en absoluto, el  * *servidor puede responder con el código de estado 401 y el encabezado WWW-Authenticate para indicar al cliente que se requiere autenticación.
-         */
+        
+        // Cuando un cliente realiza una solicitud a un recurso protegido y no proporciona credenciales válidas o no proporciona credenciales en absoluto, el  * *servidor puede responder con el código de estado 401 y el encabezado WWW-Authenticate para indicar al cliente que se requiere autenticación.
         header('HTTP/1.0 401 Unauthorized');
 
         //Mostramos un error de autenticacion
         echo("<h2>Error de auntenticacion!!</h2><br>");
 
-        /**
-         *La función exit() en PHP se utiliza para finalizar la ejecución del script inmediatamente en el punto donde se llama
-         */
+        
+        // La función exit() en PHP se utiliza para finalizar la ejecución del script inmediatamente en el punto donde se llama
+        
         exit();
     }
 ?>

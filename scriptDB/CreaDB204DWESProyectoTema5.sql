@@ -30,7 +30,7 @@ T02_VolumenDeNegocio float,
 T02_FechaBajaDepartamento datetime default null)engine=innodb;
 
 /*Creacion del usuario*/
-create user 'user204DWESProyectoTema5'@'%' identified by 'P@ssw0rd';
+create user 'user204DWESProyectoTema5'@'%' identified by 'paso';
 grant all privileges on DB204DWESProyectoTema5.* to 'user204DWESProyectoTema5'@'%';
 
 /*Creacion del usuario de 1&1 o IONOS*/
