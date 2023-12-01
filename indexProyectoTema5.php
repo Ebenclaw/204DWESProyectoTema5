@@ -25,15 +25,26 @@
         <table class="tablaIndex script">
             <caption>Scripts DB</caption>
             <tr>
+                <th>Descripcion</th>
+                <th colspan="2">EE</th>
+                <th>ED</th>
+            </tr>
+            <tr>
                 <td>Script creación de base de datos y usuarios</td>
+                <td><a href="scriptDB/CreaDB204DWESProyectoTema5.php"><img src="webroot/image/play.png" alt="ojo"/></a></td>
+                <td><a href="mostrarcodigo/muestraCrearEE.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
                 <td><a href="mostrarcodigo/muestraCrear.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
             </tr>
             <tr>
                 <td>Script carga inicial de base de datos</td>
+                <td><a href="scriptDB/CargaInicialDB204DWESProyectoTema5.php"><img src="webroot/image/play.png" alt="ojo"/></a></td>
+                <td><a href="mostrarcodigo/muestraCargaEE.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
                 <td><a href="mostrarcodigo/muestraCarga.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
             </tr>
             <tr>
                 <td>Script borrado de base de datos y usuario</td>
+                <td><a href="scriptDB/BorraDB204DWESProyectoTema5.php"><img src="webroot/image/play.png" alt="ojo"/></a></td>
+                <td><a href="mostrarcodigo/muestraBorraEE.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
                 <td><a href="mostrarcodigo/muestraBorra.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
             </tr>
         </table>
@@ -53,12 +64,7 @@
                 <td>2. Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO)</td>
                 <td><a href="codigoPHP/ejercicio02.php"><img src="webroot/image/play.png" alt="play"/></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicio02.php"><img src="webroot/image/ojo.png" alt="ojo"/></a></td>
-            </tr>
-            <tr>
-                <td>3. </td>
-                <td></td>
-                <td></td>
-            </tr>            
+            </tr>          
         </table>
     </main>
     <footer>
