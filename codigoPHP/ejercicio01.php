@@ -46,7 +46,7 @@
         <h1>Ejercicio 1</h1>
     </header>
     <main>
-        <h2>Conexión a la base de datos con la cuenta usuario y tratamiento de errores</h2>
+        <h2>Desarrollo de un control de acceso con identificación del usuario basado en la función header()</h2>
         
         <?php
             // Se muestra el mensaje de bienvenida
