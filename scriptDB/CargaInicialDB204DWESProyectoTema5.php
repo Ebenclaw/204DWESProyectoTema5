@@ -19,7 +19,7 @@ try {
     
     // Consulta de insercion de datos en la tabla departamento
     $sql1 = <<< SQL
-        insert into T02_Departamento values ("DAW","Desarrollo de aplicaciones web",now(),50.50,null),
+        insert into dbs12302420.T02_Departamento values ("DAW","Desarrollo de aplicaciones web",now(),50.50,null),
         ("SMR","Sistemas microinformarticos y redes",now(),1.50,null),
         ("PRE","Proyectos de edificacion",now(),150,null),
         ("DAM","Desarrollo de aplicaciones multiplataforma",now(),10.25,null),
@@ -27,7 +27,7 @@ try {
     SQL;
     // Consulta de insercion de datos en la tabla usuario
     $sql2 = <<< SQL
-        INSERT INTO T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
+        INSERT INTO dbs12302420.T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
         ('admin', SHA2('adminpaso', 256), 'administrador', 'administrador'),
         ('alvaro', SHA2('alvaropaso', 256), 'Álvaro Cordero Miñambres', 'usuario'),
         ('carlos', SHA2('carlospaso', 256), 'Carlos García Cachón', 'usuario'),
