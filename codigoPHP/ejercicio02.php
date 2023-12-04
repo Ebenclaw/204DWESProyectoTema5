@@ -75,7 +75,11 @@
         <main>
         </main>
         <footer>
-            <p>2023-2024 © Todos los derechos reservados. <a href="../indexProyectoTema5.php">Erika Martínez Pérez</a></p>
+            <div id="derechos">2023-2024 © Todos los derechos reservados: <a href="../../index.html">Rebeca Sánchez Pérez</a></div>
+            <div id="fotos">
+                <a href="https://github.com/Ebenclaw" target="_blank"><img id="git" src="../webroot/image/GitHub.png" alt="GitHub"></a>
+                <a href="http://ieslossauces.centros.educa.jcyl.es/sitio/" target="_blank"><img id="sauces" src="../webroot/image/sauces.png" alt="Sauces"></a>
+                <a href="../indexProyectoTema5.php"><img id="home" src="../webroot/image/home.png" alt="Inicio"></a>
         </footer>
     </body>
 </html>
