@@ -18,7 +18,7 @@
         <h2>Script creación de base de datos y usuario en EE</h2>
         <div class="ejercicio">
             <?php
-                highlight_file("../scriptDB/CreaDB204DWESProyectoTema5.php");
+                highlight_file("../scriptDB/CreaDB204DWESAplicacionFinal.php");
             ?>
         </div>
     </main>

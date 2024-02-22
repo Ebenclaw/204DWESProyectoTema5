@@ -18,7 +18,7 @@
         <h2>Script carga inicial de base de datos en EE</h2>
         <div class="ejercicio">
             <?php
-                highlight_file("../scriptDB/CargaInicialDB204DWESProyectoTema5.php");
+                highlight_file("../scriptDB/CargaInicialDB204DWESAplicacionFinal.php");
             ?>
         </div>
     </main>
